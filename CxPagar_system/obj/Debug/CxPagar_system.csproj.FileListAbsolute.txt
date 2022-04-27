@@ -1,0 +1,14 @@
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\bin\Debug\CxPagar_system.exe.config
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\bin\Debug\CxPagar_system.exe
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\bin\Debug\CxPagar_system.pdb
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.csproj.AssemblyReference.cache
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.csproj.SuggestedBindingRedirects.cache
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Properties.Resources.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.login.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.csproj.GenerateResource.cache
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.csproj.CoreCompileInputs.cache
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.csproj.CopyComplete
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.exe
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.pdb
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Inicio.resources
