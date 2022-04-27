@@ -58,7 +58,6 @@
             // txtContrasena
             // 
             this.txtContrasena.Location = new System.Drawing.Point(407, 205);
-            this.txtContrasena.Multiline = true;
             this.txtContrasena.Name = "txtContrasena";
             this.txtContrasena.Size = new System.Drawing.Size(254, 20);
             this.txtContrasena.TabIndex = 2;
@@ -147,8 +146,8 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "login";
             this.ResumeLayout(false);
