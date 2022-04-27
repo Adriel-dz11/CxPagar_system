@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CxPagar_system
+namespace CxPagar_system.Views
 {
-    public partial class Form1 : Form
+    public partial class inicio : Form
     {
-        public Form1()
+        public inicio()
         {
             InitializeComponent();
         }
