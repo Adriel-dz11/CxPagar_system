@@ -19,11 +19,33 @@ namespace CxPagar_system.Views
         public Login()
         {
             InitializeComponent();
+            txtUsername.MaxLength = 50;
+            txtContrasena.PasswordChar = '*';
+            txtContrasena.MaxLength = 950;
+            this.AcceptButton = BtnIngresar;
+        }
+
+        private void BtnIngresar_Click(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                loginController.Ingresar(this);
+            }
         }
 
         private void BtnIngresar_Click(object sender, EventArgs e)
         {
-            loginController.Ingresar(sender, e, this);
+            loginController.Ingresar(this);
+        }
+
+        public TextBox GetUsernameField()
+        {
+            return txtUsername;
+        }
+
+        public TextBox GetPasswordField()
+        {
+            return txtContrasena;
         }
 
         public void setUsernameFieldValue(String username)
@@ -58,5 +80,6 @@ namespace CxPagar_system.Views
                 this.Show();
             }
         }
+
     }
 }

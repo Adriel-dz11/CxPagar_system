@@ -19,7 +19,7 @@ namespace CxPagar_system.Controllers
             dataLogin = new DataLogin(this);
         }
 
-        public void Ingresar(object sender, EventArgs e, Login loginForm)
+        public void Ingresar(Login loginForm)
         {
             string username = loginForm.getUsernameFieldValue();
             string password = loginForm.getPasswordFieldValue();

@@ -16,7 +16,7 @@ namespace CxPagar_system.Data
 
         public SqlConnection Connect()
         {
-            _connection = new SqlConnection(@"Data Source=LAPTOP-JGSAQF21\SQLEXPRESS;Initial Catalog=cuentasxpagar;Integrated Security=True");
+            _connection = new SqlConnection(@"Data Source=ADRIAN-LENOVO\SQLSERVERW;Initial Catalog=cuentasxpagar;Integrated Security=True");
             return _connection;
         }
 

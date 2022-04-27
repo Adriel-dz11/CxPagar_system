@@ -40,12 +40,13 @@ namespace CxPagar_system.Data
                 else
                 {
                     MessageBox.Show("Credenciales invalidas", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    loginForm.setUsernameFieldValue("");
-                    loginForm.setPasswordFieldValue("");
+                    loginForm.GetUsernameField().Clear();
+                    loginForm.GetPasswordField().Clear();
+                    loginForm.GetUsernameField().Focus();
                 }
 
             }
-            catch (SqlException sqlException)
+            catch (Exception e)
             {
                 MessageBox.Show("Error");
             }
