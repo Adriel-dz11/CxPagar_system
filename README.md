@@ -9,6 +9,14 @@ _Entre los mantenimientos tenemos el de usuario, documentos por pagar, conceptos
 ## Instrucciones 📝
 _Para obtener una copia del proyecto, favor clonar el repositorio._
 
+Una vez con la copia, ir al directorio db_scripts y ejecutar en sql server el script en db_scheme.sql.
+
+Luego se debe tener en cuenta el connection string de la base de datos que está en el fichero CxPagar_System/Data/DriverDb.cs y cambiar la parte de "Data Source" indicando el servidor correspondiente de tu máquina.
+
+Finalmente las credenciales por defecto son:
+- Username: admin
+- Password: admin1234
+
 ## Herramientas utilizadas 🔧
 * Visual Studio 2022
 * SQL Server
