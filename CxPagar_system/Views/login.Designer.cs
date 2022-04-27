@@ -1,6 +1,6 @@
 ﻿namespace CxPagar_system.Views
 {
-    partial class login
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtContrasena = new System.Windows.Forms.TextBox();
@@ -74,7 +74,6 @@
             this.lblUsername.Size = new System.Drawing.Size(93, 21);
             this.lblUsername.TabIndex = 3;
             this.lblUsername.Text = "Username:";
-            this.lblUsername.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblContrasena
             // 
@@ -87,7 +86,6 @@
             this.lblContrasena.Size = new System.Drawing.Size(103, 21);
             this.lblContrasena.TabIndex = 4;
             this.lblContrasena.Text = "Contraseña:";
-            this.lblContrasena.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -119,6 +117,7 @@
             this.BtnIngresar.Text = "Entrar";
             this.BtnIngresar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnIngresar.UseVisualStyleBackColor = false;
+            this.BtnIngresar.Click += new System.EventHandler(this.BtnIngresar_Click);
             // 
             // Btnsalir
             // 
@@ -131,8 +130,9 @@
             this.Btnsalir.TabIndex = 7;
             this.Btnsalir.Text = "X";
             this.Btnsalir.UseVisualStyleBackColor = true;
+            this.Btnsalir.Click += new System.EventHandler(this.Btnsalir_Click);
             // 
-            // login
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -147,11 +147,10 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "login";
+            this.Name = "Login";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "login";
-            this.Load += new System.EventHandler(this.login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

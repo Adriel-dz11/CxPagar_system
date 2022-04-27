@@ -10,31 +10,11 @@ using System.Windows.Forms;
 
 namespace CxPagar_system.Views
 {
-    public partial class inicio : Form
+    public partial class Inicio : Form
     {
-        public inicio()
+        public Inicio()
         {
             InitializeComponent();
-        }
-
-        private void iconDropDownButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void parámetrosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void reporteDeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

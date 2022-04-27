@@ -67,3 +67,8 @@ CREATE TABLE Cierre
 					  		   REFERENCES Parametros(id_parametro),
 	monto 		  FLOAT
 )
+
+-- Inserting admin user
+
+INSERT INTO Login(username, password, privilegio)
+VALUES('Admin', 'admin1234', 'admin')

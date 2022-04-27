@@ -7,32 +7,56 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using CxPagar_system.Controllers;
 
 
 namespace CxPagar_system.Views
 {
-    public partial class login : Form
+    public partial class Login : Form
     {
-        public login()
+        LoginController loginController = new LoginController();
+
+        public Login()
         {
             InitializeComponent();
-           
         }
 
-        private void login_Load(object sender, EventArgs e)
+        private void BtnIngresar_Click(object sender, EventArgs e)
         {
-           
+            loginController.Ingresar(sender, e, this);
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        public void setUsernameFieldValue(String username)
         {
-
+            txtUsername.Text = username;
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        public string getUsernameFieldValue()
         {
+            return txtUsername.Text;
+        }
 
+        public void setPasswordFieldValue(String password)
+        {
+            txtContrasena.Text = password;
+        }
+
+        public string getPasswordFieldValue()
+        {
+            return txtContrasena.Text;
+        }
+
+        private void Btnsalir_Click(object sender, EventArgs e)
+        {
+            DialogResult res;
+            res = MessageBox.Show("¿Seguro que quieres salir?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (res == DialogResult.Yes)
+            {
+                Application.Exit();
+            } else
+            {
+                this.Show();
+            }
         }
     }
 }
