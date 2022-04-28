@@ -34,3 +34,10 @@ C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_
 C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Cons.Cons_Proveedores.resources
 C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Mant.Mant_Concepto_Pago.resources
 C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Process.Proc_Parametros.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Cons.Cons_Cierres.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Cons.Cons_Conceptos.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Cons.Cons_Docs_x_Pagar.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Cons.Cons_Facturas.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Cons.Cons_Parametros.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Cons.Cons_Pendientes.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Cons.Cons_Usuarios.resources

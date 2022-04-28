@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.iconDropDownButton5 = new FontAwesome.Sharp.IconDropDownButton();
             this.iconDropDownButton7 = new FontAwesome.Sharp.IconDropDownButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.iconButton7 = new FontAwesome.Sharp.IconButton();
@@ -71,7 +70,6 @@
             this.toolStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(116)))), ((int)(((byte)(173)))));
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripLabel1,
-            this.iconDropDownButton5,
             this.iconDropDownButton7});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
@@ -87,21 +85,9 @@
             this.toolStripLabel1.Size = new System.Drawing.Size(180, 50);
             this.toolStripLabel1.Text = "Cuentas x Pagar";
             // 
-            // iconDropDownButton5
-            // 
-            this.iconDropDownButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.iconDropDownButton5.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconDropDownButton5.IconColor = System.Drawing.Color.Black;
-            this.iconDropDownButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconDropDownButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.iconDropDownButton5.Name = "iconDropDownButton5";
-            this.iconDropDownButton5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.iconDropDownButton5.Size = new System.Drawing.Size(452, 50);
-            this.iconDropDownButton5.Text = "                                                                                 " +
-    "                                                               ";
-            // 
             // iconDropDownButton7
             // 
+            this.iconDropDownButton7.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.iconDropDownButton7.AutoSize = false;
             this.iconDropDownButton7.Font = new System.Drawing.Font("Segoe UI Black", 9F);
             this.iconDropDownButton7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -112,6 +98,7 @@
             this.iconDropDownButton7.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.iconDropDownButton7.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.iconDropDownButton7.Name = "iconDropDownButton7";
+            this.iconDropDownButton7.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.iconDropDownButton7.Size = new System.Drawing.Size(102, 50);
             this.iconDropDownButton7.Text = "Salir";
             this.iconDropDownButton7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -148,6 +135,7 @@
             this.iconButton7.Text = "Conceptos";
             this.iconButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.iconButton7.UseVisualStyleBackColor = false;
+            this.iconButton7.Click += new System.EventHandler(this.iconButton7_Click);
             // 
             // iconButton6
             // 
@@ -165,6 +153,7 @@
             this.iconButton6.Text = "Usuarios";
             this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.iconButton6.UseVisualStyleBackColor = false;
+            this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click);
             // 
             // iconButton5
             // 
@@ -182,6 +171,7 @@
             this.iconButton5.Text = "Pendientes";
             this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.iconButton5.UseVisualStyleBackColor = false;
+            this.iconButton5.Click += new System.EventHandler(this.iconButton5_Click);
             // 
             // iconButton4
             // 
@@ -199,6 +189,7 @@
             this.iconButton4.Text = "Parámetros";
             this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.iconButton4.UseVisualStyleBackColor = false;
+            this.iconButton4.Click += new System.EventHandler(this.iconButton4_Click);
             // 
             // iconButton3
             // 
@@ -216,6 +207,7 @@
             this.iconButton3.Text = "Docs x Pagar";
             this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.iconButton3.UseVisualStyleBackColor = false;
+            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
             // 
             // iconButton2
             // 
@@ -233,6 +225,7 @@
             this.iconButton2.Text = "Cierres";
             this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.iconButton2.UseVisualStyleBackColor = false;
+            this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
             // 
             // iconButton1
             // 
@@ -250,6 +243,7 @@
             this.iconButton1.Text = "Proveedores";
             this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // toolStrip2
             // 
@@ -303,6 +297,7 @@
             this.iconMenuItem1.Name = "iconMenuItem1";
             this.iconMenuItem1.Size = new System.Drawing.Size(184, 22);
             this.iconMenuItem1.Text = "Documentos x Pagar";
+            this.iconMenuItem1.Click += new System.EventHandler(this.iconMenuItem1_Click);
             // 
             // iconMenuItem2
             // 
@@ -312,6 +307,7 @@
             this.iconMenuItem2.Name = "iconMenuItem2";
             this.iconMenuItem2.Size = new System.Drawing.Size(184, 22);
             this.iconMenuItem2.Text = "Gestión de Pago";
+            this.iconMenuItem2.Click += new System.EventHandler(this.iconMenuItem2_Click);
             // 
             // iconMenuItem3
             // 
@@ -321,6 +317,7 @@
             this.iconMenuItem3.Name = "iconMenuItem3";
             this.iconMenuItem3.Size = new System.Drawing.Size(184, 22);
             this.iconMenuItem3.Text = "Concepto de Pago";
+            this.iconMenuItem3.Click += new System.EventHandler(this.iconMenuItem3_Click);
             // 
             // iconMenuItem4
             // 
@@ -330,6 +327,7 @@
             this.iconMenuItem4.Name = "iconMenuItem4";
             this.iconMenuItem4.Size = new System.Drawing.Size(184, 22);
             this.iconMenuItem4.Text = "Proveedores";
+            this.iconMenuItem4.Click += new System.EventHandler(this.iconMenuItem4_Click);
             // 
             // iconMenuItem7
             // 
@@ -339,6 +337,7 @@
             this.iconMenuItem7.Name = "iconMenuItem7";
             this.iconMenuItem7.Size = new System.Drawing.Size(184, 22);
             this.iconMenuItem7.Text = "Usuario";
+            this.iconMenuItem7.Click += new System.EventHandler(this.iconMenuItem7_Click);
             // 
             // iconDropDownButton2
             // 
@@ -364,8 +363,9 @@
             this.iconMenuItem5.IconColor = System.Drawing.Color.Black;
             this.iconMenuItem5.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconMenuItem5.Name = "iconMenuItem5";
-            this.iconMenuItem5.Size = new System.Drawing.Size(134, 22);
+            this.iconMenuItem5.Size = new System.Drawing.Size(180, 22);
             this.iconMenuItem5.Text = "Cierre";
+            this.iconMenuItem5.Click += new System.EventHandler(this.iconMenuItem5_Click);
             // 
             // iconMenuItem6
             // 
@@ -373,8 +373,9 @@
             this.iconMenuItem6.IconColor = System.Drawing.Color.Black;
             this.iconMenuItem6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconMenuItem6.Name = "iconMenuItem6";
-            this.iconMenuItem6.Size = new System.Drawing.Size(134, 22);
+            this.iconMenuItem6.Size = new System.Drawing.Size(180, 22);
             this.iconMenuItem6.Text = "Parámetros";
+            this.iconMenuItem6.Click += new System.EventHandler(this.iconMenuItem6_Click);
             // 
             // iconDropDownButton3
             // 
@@ -405,48 +406,56 @@
             this.listaDeProveedoresToolStripMenuItem.Name = "listaDeProveedoresToolStripMenuItem";
             this.listaDeProveedoresToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.listaDeProveedoresToolStripMenuItem.Text = "Consulta de proveedores";
+            this.listaDeProveedoresToolStripMenuItem.Click += new System.EventHandler(this.listaDeProveedoresToolStripMenuItem_Click);
             // 
             // consultaDeCierresToolStripMenuItem
             // 
             this.consultaDeCierresToolStripMenuItem.Name = "consultaDeCierresToolStripMenuItem";
             this.consultaDeCierresToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.consultaDeCierresToolStripMenuItem.Text = "Consulta de cierres";
+            this.consultaDeCierresToolStripMenuItem.Click += new System.EventHandler(this.consultaDeCierresToolStripMenuItem_Click);
             // 
             // consultaDeParámetrosToolStripMenuItem
             // 
             this.consultaDeParámetrosToolStripMenuItem.Name = "consultaDeParámetrosToolStripMenuItem";
             this.consultaDeParámetrosToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.consultaDeParámetrosToolStripMenuItem.Text = "Consulta de parámetros";
+            this.consultaDeParámetrosToolStripMenuItem.Click += new System.EventHandler(this.consultaDeParámetrosToolStripMenuItem_Click);
             // 
             // consultaDeConceptosToolStripMenuItem
             // 
             this.consultaDeConceptosToolStripMenuItem.Name = "consultaDeConceptosToolStripMenuItem";
             this.consultaDeConceptosToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.consultaDeConceptosToolStripMenuItem.Text = "Consulta de conceptos";
+            this.consultaDeConceptosToolStripMenuItem.Click += new System.EventHandler(this.consultaDeConceptosToolStripMenuItem_Click);
             // 
             // consultaDeFracturasToolStripMenuItem
             // 
             this.consultaDeFracturasToolStripMenuItem.Name = "consultaDeFracturasToolStripMenuItem";
             this.consultaDeFracturasToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.consultaDeFracturasToolStripMenuItem.Text = "Consulta de facturas";
+            this.consultaDeFracturasToolStripMenuItem.Click += new System.EventHandler(this.consultaDeFracturasToolStripMenuItem_Click);
             // 
             // consultaDePendientesToolStripMenuItem
             // 
             this.consultaDePendientesToolStripMenuItem.Name = "consultaDePendientesToolStripMenuItem";
             this.consultaDePendientesToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.consultaDePendientesToolStripMenuItem.Text = "Consulta de pendientes";
+            this.consultaDePendientesToolStripMenuItem.Click += new System.EventHandler(this.consultaDePendientesToolStripMenuItem_Click);
             // 
             // consultaDeDocsXPagarToolStripMenuItem
             // 
             this.consultaDeDocsXPagarToolStripMenuItem.Name = "consultaDeDocsXPagarToolStripMenuItem";
             this.consultaDeDocsXPagarToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.consultaDeDocsXPagarToolStripMenuItem.Text = "Consulta de docs x pagar";
+            this.consultaDeDocsXPagarToolStripMenuItem.Click += new System.EventHandler(this.consultaDeDocsXPagarToolStripMenuItem_Click);
             // 
             // consultaDeUsuariosToolStripMenuItem
             // 
             this.consultaDeUsuariosToolStripMenuItem.Name = "consultaDeUsuariosToolStripMenuItem";
             this.consultaDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.consultaDeUsuariosToolStripMenuItem.Text = "Consulta de usuarios";
+            this.consultaDeUsuariosToolStripMenuItem.Click += new System.EventHandler(this.consultaDeUsuariosToolStripMenuItem_Click);
             // 
             // Inicio
             // 
@@ -479,7 +488,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ToolStrip toolStrip2;
         private FontAwesome.Sharp.IconDropDownButton iconDropDownButton1;
-        private FontAwesome.Sharp.IconDropDownButton iconDropDownButton5;
         private FontAwesome.Sharp.IconMenuItem iconMenuItem1;
         private FontAwesome.Sharp.IconMenuItem iconMenuItem2;
         private FontAwesome.Sharp.IconMenuItem iconMenuItem3;
