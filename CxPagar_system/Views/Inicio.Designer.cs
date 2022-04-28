@@ -52,6 +52,14 @@
             this.consultaDeDocsXPagarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultaDeUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.iconButton11 = new FontAwesome.Sharp.IconButton();
+            this.iconButton10 = new FontAwesome.Sharp.IconButton();
+            this.iconButton9 = new FontAwesome.Sharp.IconButton();
+            this.iconButton8 = new FontAwesome.Sharp.IconButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
@@ -61,21 +69,13 @@
             this.iconButton7 = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.miniToolStrip = new System.Windows.Forms.ToolStrip();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.toolStrip3 = new System.Windows.Forms.ToolStrip();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.iconButton8 = new FontAwesome.Sharp.IconButton();
-            this.iconButton9 = new FontAwesome.Sharp.IconButton();
-            this.iconButton10 = new FontAwesome.Sharp.IconButton();
-            this.iconButton11 = new FontAwesome.Sharp.IconButton();
             this.toolStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -87,7 +87,7 @@
             this.iconDropDownButton7});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(2029, 53);
+            this.toolStrip1.Size = new System.Drawing.Size(1370, 53);
             this.toolStrip1.TabIndex = 0;
             // 
             // toolStripLabel1
@@ -126,7 +126,7 @@
             this.iconDropDownButton3});
             this.toolStrip2.Location = new System.Drawing.Point(0, 53);
             this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(2029, 53);
+            this.toolStrip2.Size = new System.Drawing.Size(1370, 53);
             this.toolStrip2.TabIndex = 3;
             // 
             // iconDropDownButton1
@@ -224,7 +224,7 @@
             this.iconMenuItem5.IconColor = System.Drawing.Color.Black;
             this.iconMenuItem5.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconMenuItem5.Name = "iconMenuItem5";
-            this.iconMenuItem5.Size = new System.Drawing.Size(180, 22);
+            this.iconMenuItem5.Size = new System.Drawing.Size(134, 22);
             this.iconMenuItem5.Text = "Cierre";
             this.iconMenuItem5.Click += new System.EventHandler(this.iconMenuItem5_Click);
             // 
@@ -234,7 +234,7 @@
             this.iconMenuItem6.IconColor = System.Drawing.Color.Black;
             this.iconMenuItem6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconMenuItem6.Name = "iconMenuItem6";
-            this.iconMenuItem6.Size = new System.Drawing.Size(180, 22);
+            this.iconMenuItem6.Size = new System.Drawing.Size(134, 22);
             this.iconMenuItem6.Text = "Parámetros";
             this.iconMenuItem6.Click += new System.EventHandler(this.iconMenuItem6_Click);
             // 
@@ -323,10 +323,126 @@
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 920);
+            this.panel2.Location = new System.Drawing.Point(0, 608);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(2029, 141);
+            this.panel2.Size = new System.Drawing.Size(1370, 141);
             this.panel2.TabIndex = 4;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(77)))), ((int)(((byte)(115)))));
+            this.panel3.Controls.Add(this.iconButton11);
+            this.panel3.Controls.Add(this.iconButton10);
+            this.panel3.Controls.Add(this.iconButton9);
+            this.panel3.Controls.Add(this.iconButton8);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 55);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1370, 86);
+            this.panel3.TabIndex = 0;
+            // 
+            // iconButton11
+            // 
+            this.iconButton11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(77)))), ((int)(((byte)(115)))));
+            this.iconButton11.FlatAppearance.BorderSize = 0;
+            this.iconButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton11.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.iconButton11.IconChar = FontAwesome.Sharp.IconChar.Linkedin;
+            this.iconButton11.IconColor = System.Drawing.Color.White;
+            this.iconButton11.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton11.IconSize = 60;
+            this.iconButton11.Location = new System.Drawing.Point(1730, 7);
+            this.iconButton11.Name = "iconButton11";
+            this.iconButton11.Size = new System.Drawing.Size(66, 68);
+            this.iconButton11.TabIndex = 10;
+            this.iconButton11.UseVisualStyleBackColor = false;
+            // 
+            // iconButton10
+            // 
+            this.iconButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(77)))), ((int)(((byte)(115)))));
+            this.iconButton10.FlatAppearance.BorderSize = 0;
+            this.iconButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton10.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.iconButton10.IconChar = FontAwesome.Sharp.IconChar.Whatsapp;
+            this.iconButton10.IconColor = System.Drawing.Color.White;
+            this.iconButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton10.IconSize = 60;
+            this.iconButton10.Location = new System.Drawing.Point(1637, 7);
+            this.iconButton10.Name = "iconButton10";
+            this.iconButton10.Size = new System.Drawing.Size(66, 68);
+            this.iconButton10.TabIndex = 9;
+            this.iconButton10.UseVisualStyleBackColor = false;
+            // 
+            // iconButton9
+            // 
+            this.iconButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(77)))), ((int)(((byte)(115)))));
+            this.iconButton9.FlatAppearance.BorderSize = 0;
+            this.iconButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton9.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.iconButton9.IconChar = FontAwesome.Sharp.IconChar.Telegram;
+            this.iconButton9.IconColor = System.Drawing.Color.White;
+            this.iconButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton9.IconSize = 60;
+            this.iconButton9.Location = new System.Drawing.Point(1539, 7);
+            this.iconButton9.Name = "iconButton9";
+            this.iconButton9.Size = new System.Drawing.Size(66, 68);
+            this.iconButton9.TabIndex = 8;
+            this.iconButton9.UseVisualStyleBackColor = false;
+            // 
+            // iconButton8
+            // 
+            this.iconButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(77)))), ((int)(((byte)(115)))));
+            this.iconButton8.FlatAppearance.BorderSize = 0;
+            this.iconButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton8.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.Facebook;
+            this.iconButton8.IconColor = System.Drawing.Color.White;
+            this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton8.IconSize = 60;
+            this.iconButton8.Location = new System.Drawing.Point(1449, 7);
+            this.iconButton8.Name = "iconButton8";
+            this.iconButton8.Size = new System.Drawing.Size(66, 68);
+            this.iconButton8.TabIndex = 7;
+            this.iconButton8.UseVisualStyleBackColor = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(348, 40);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(331, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Copyright © CAAS 2022 - Todos los derechos reservados";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(93, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(228, 25);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Dev-Solutions-CAAS";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 24);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // iconButton1
             // 
@@ -474,7 +590,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 53);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(2029, 1008);
+            this.panel1.Size = new System.Drawing.Size(1370, 696);
             this.panel1.TabIndex = 2;
             // 
             // miniToolStrip
@@ -490,22 +606,6 @@
             this.miniToolStrip.Size = new System.Drawing.Size(2029, 25);
             this.miniToolStrip.TabIndex = 0;
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(77)))), ((int)(((byte)(115)))));
-            this.panel3.Controls.Add(this.iconButton11);
-            this.panel3.Controls.Add(this.iconButton10);
-            this.panel3.Controls.Add(this.iconButton9);
-            this.panel3.Controls.Add(this.iconButton8);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.label1);
-            this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 55);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(2029, 86);
-            this.panel3.TabIndex = 0;
-            // 
             // toolStrip3
             // 
             this.toolStrip3.Location = new System.Drawing.Point(0, 0);
@@ -514,112 +614,12 @@
             this.toolStrip3.TabIndex = 0;
             this.toolStrip3.Text = "toolStrip3";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 24);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(93, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 25);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Dev-Solutions-CAAS";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(348, 40);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(331, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Copyright © CAAS 2022 - Todos los derechos reservados";
-            // 
-            // iconButton8
-            // 
-            this.iconButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(77)))), ((int)(((byte)(115)))));
-            this.iconButton8.FlatAppearance.BorderSize = 0;
-            this.iconButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton8.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.Facebook;
-            this.iconButton8.IconColor = System.Drawing.Color.White;
-            this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton8.IconSize = 60;
-            this.iconButton8.Location = new System.Drawing.Point(1449, 7);
-            this.iconButton8.Name = "iconButton8";
-            this.iconButton8.Size = new System.Drawing.Size(66, 68);
-            this.iconButton8.TabIndex = 7;
-            this.iconButton8.UseVisualStyleBackColor = false;
-            // 
-            // iconButton9
-            // 
-            this.iconButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(77)))), ((int)(((byte)(115)))));
-            this.iconButton9.FlatAppearance.BorderSize = 0;
-            this.iconButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton9.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.iconButton9.IconChar = FontAwesome.Sharp.IconChar.Telegram;
-            this.iconButton9.IconColor = System.Drawing.Color.White;
-            this.iconButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton9.IconSize = 60;
-            this.iconButton9.Location = new System.Drawing.Point(1539, 7);
-            this.iconButton9.Name = "iconButton9";
-            this.iconButton9.Size = new System.Drawing.Size(66, 68);
-            this.iconButton9.TabIndex = 8;
-            this.iconButton9.UseVisualStyleBackColor = false;
-            // 
-            // iconButton10
-            // 
-            this.iconButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(77)))), ((int)(((byte)(115)))));
-            this.iconButton10.FlatAppearance.BorderSize = 0;
-            this.iconButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton10.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.iconButton10.IconChar = FontAwesome.Sharp.IconChar.Whatsapp;
-            this.iconButton10.IconColor = System.Drawing.Color.White;
-            this.iconButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton10.IconSize = 60;
-            this.iconButton10.Location = new System.Drawing.Point(1637, 7);
-            this.iconButton10.Name = "iconButton10";
-            this.iconButton10.Size = new System.Drawing.Size(66, 68);
-            this.iconButton10.TabIndex = 9;
-            this.iconButton10.UseVisualStyleBackColor = false;
-            // 
-            // iconButton11
-            // 
-            this.iconButton11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(77)))), ((int)(((byte)(115)))));
-            this.iconButton11.FlatAppearance.BorderSize = 0;
-            this.iconButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton11.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.iconButton11.IconChar = FontAwesome.Sharp.IconChar.Linkedin;
-            this.iconButton11.IconColor = System.Drawing.Color.White;
-            this.iconButton11.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton11.IconSize = 60;
-            this.iconButton11.Location = new System.Drawing.Point(1730, 7);
-            this.iconButton11.Name = "iconButton11";
-            this.iconButton11.Size = new System.Drawing.Size(66, 68);
-            this.iconButton11.TabIndex = 10;
-            this.iconButton11.UseVisualStyleBackColor = false;
-            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(2029, 1061);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.toolStrip2);
             this.Controls.Add(this.panel1);
@@ -635,10 +635,10 @@
             this.toolStrip2.ResumeLayout(false);
             this.toolStrip2.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

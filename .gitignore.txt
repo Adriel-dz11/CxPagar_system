@@ -1,1 +1,0 @@
-CxPagar_system\.vs\CxPagar_system\v17\.suo

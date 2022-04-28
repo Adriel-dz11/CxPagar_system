@@ -10,13 +10,15 @@ namespace CxPagar_system.Data
     internal class DriverDb
     {
         private static DriverDb Instance;
-        SqlConnection _connection;
+        private SqlConnection _connection;
+        private string EnvVariable;
 
         private DriverDb() { }
 
         public SqlConnection Connect()
         {
-            _connection = new SqlConnection(@"Data Source=LAPTOP-JGSAQF21\SQLEXPRESS;Initial Catalog=cuentasxpagar;Integrated Security=True");
+            EnvVariable = Environment.GetEnvironmentVariable("SQLSERVER_CONNECTIONSTRING");
+            _connection = new SqlConnection(EnvVariable); 
             return _connection;
         }
 

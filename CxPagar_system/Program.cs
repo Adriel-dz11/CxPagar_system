@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//using CxPagar_system.Views.Forms.Cons;
 using CxPagar_system.Views;
 
 namespace CxPagar_system
@@ -16,9 +15,11 @@ namespace CxPagar_system
         [STAThread]
         static void Main()
         {
+            DotNetEnv.Env.TraversePath().Load();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inicio());
+            Application.Run(new Login());
         }
     }
 }
