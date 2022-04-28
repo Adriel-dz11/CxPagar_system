@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CxPagar_system.Views
+namespace CxPagar_system.Views.Forms.Cons
 {
-    public partial class Inicio : Form
+    public partial class Cons_Cierres : Form
     {
-        public Inicio()
+        public Cons_Cierres()
         {
             InitializeComponent();
-        }
-
-        private void toolStripButton1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

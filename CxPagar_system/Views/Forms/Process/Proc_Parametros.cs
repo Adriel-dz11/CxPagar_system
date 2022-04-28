@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CxPagar_system.Views
+namespace CxPagar_system.Views.Forms.Process
 {
-    public partial class Inicio : Form
+    public partial class Proc_Parametros : Form
     {
-        public Inicio()
+        public Proc_Parametros()
         {
             InitializeComponent();
-        }
-
-        private void toolStripButton1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
