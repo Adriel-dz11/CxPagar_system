@@ -75,7 +75,7 @@
             this.iconDropDownButton7});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(763, 53);
+            this.toolStrip1.Size = new System.Drawing.Size(758, 53);
             this.toolStrip1.TabIndex = 0;
             // 
             // toolStripLabel1
@@ -127,9 +127,9 @@
             this.panel1.Controls.Add(this.iconButton2);
             this.panel1.Controls.Add(this.iconButton1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 69);
+            this.panel1.Location = new System.Drawing.Point(0, 249);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(763, 318);
+            this.panel1.Size = new System.Drawing.Size(758, 318);
             this.panel1.TabIndex = 2;
             // 
             // iconButton7
@@ -261,7 +261,7 @@
             this.iconDropDownButton3});
             this.toolStrip2.Location = new System.Drawing.Point(0, 53);
             this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(763, 53);
+            this.toolStrip2.Size = new System.Drawing.Size(758, 53);
             this.toolStrip2.TabIndex = 3;
             // 
             // toolStripButton1
@@ -272,6 +272,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(209, 50);
             this.toolStripButton1.Text = "                                                                  ";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // iconDropDownButton1
             // 
@@ -452,7 +453,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
-            this.ClientSize = new System.Drawing.Size(763, 387);
+            this.ClientSize = new System.Drawing.Size(758, 567);
             this.Controls.Add(this.toolStrip2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.toolStrip1);

@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CxPagar_system.Views
+namespace CxPagar_system.Views.Forms.Mant
 {
-    public partial class Inicio : Form
+    public partial class Mant_Concepto_Pago : Form
     {
-        public Inicio()
+        public Mant_Concepto_Pago()
         {
             InitializeComponent();
-        }
-
-        private void toolStripButton1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

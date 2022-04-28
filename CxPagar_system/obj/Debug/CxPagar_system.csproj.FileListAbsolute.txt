@@ -26,3 +26,11 @@ C:\Users\LENOVO\workspace\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system
 C:\Users\LENOVO\workspace\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.csproj.CopyComplete
 C:\Users\LENOVO\workspace\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.exe
 C:\Users\LENOVO\workspace\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.pdb
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Mant.Docs_x_pagar.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Mant.Mant_Gestion_Pago.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Mant.Mant_Proveedores.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Mant.Mant_Usuarios.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Process.Proc_Cierre.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Cons.Cons_Proveedores.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Mant.Mant_Concepto_Pago.resources
+C:\Users\adrie\Documents\GitHub\CxPagar_system\CxPagar_system\obj\Debug\CxPagar_system.Views.Forms.Process.Proc_Parametros.resources
