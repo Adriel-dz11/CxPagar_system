@@ -1,5 +1,5 @@
 # Cuentas por pagar 💰
-_Esta es una aplicación web creada con WindowsForms (.NET Framework) utilizando el modelo Model-View-Controller (MVC) para un sistema de Cuentas por Pagar. En esta aplicación se podrán gestionar diferentes conceptos de pago, los proveedores y los documentos por pagar. También se realizaran los procesos como la generación del pago y el cierre. Nuestra aplicación también contiene un control de acceso basado en los diferentes privilegios del usuario; dependiendo del privilegio podrá realizar consultas, reportes, agregar datos, entre otras cosas._
+_Esta es una aplicación de escritorio creada con WindowsForms (.NET Framework) utilizando el modelo Model-View-Controller (MVC) para un sistema de Cuentas por Pagar. En esta aplicación se podrán gestionar diferentes conceptos de pago, los proveedores y los documentos por pagar. También se realizaran los procesos como la generación del pago y el cierre. Nuestra aplicación también contiene un control de acceso basado en los diferentes privilegios del usuario; dependiendo del privilegio podrá realizar consultas, reportes, agregar datos, entre otras cosas._
 
 ## Funcionalidad 💻
 _Al entrar en la aplicación se podrá ver el login en el que podrás iniciar sesión si ya tienes una cuenta creada. Una vez inicias sesión podrás ver la página de inicio y todos los mantenimientos disponibles. Dependiendo de los privilegios asignados a tu usuario (administrador o usuario normal) podrás tener acceso a agregar datos en los mantenimientos, crear reportes, ejecutar procesos, crear nuevos usuarios y realizar consultas._
@@ -13,9 +13,9 @@ _Una vez con la copia, ir al directorio db_scripts y ejecutar en sql server el s
 
 _Luego se debe tener en cuenta el connection string de la base de datos que está en la variable de entorno "CxPagar_System\.env" y cambiar la parte de "Data Source" indicando el servidor correspondiente de tu máquina._
 
-Finalmente las credenciales por defecto son:
-- Username: admin
-- Password: admin1234
+_Finalmente las credenciales por defecto para logearse en la aplicación al ejecutarla son:_
+_- Username: admin_
+_- Password: admin1234_
 
 ## Herramientas utilizadas 🔧
 * Visual Studio 2022
