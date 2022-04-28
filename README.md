@@ -11,7 +11,7 @@ _Para obtener una copia del proyecto, favor clonar el repositorio._
 
 _Una vez con la copia, ir al directorio db_scripts y ejecutar en sql server el script en db_scheme.sql._
 
-_Luego se debe tener en cuenta el connection string de la base de datos que está en el fichero CxPagar_System/Data/DriverDb.cs y cambiar la parte de "Data Source" indicando el servidor correspondiente de tu máquina._
+_Luego se debe tener en cuenta el connection string de la base de datos que está en la variable de entorno "CxPagar_System\.env" y cambiar la parte de "Data Source" indicando el servidor correspondiente de tu máquina._
 
 Finalmente las credenciales por defecto son:
 - Username: admin
