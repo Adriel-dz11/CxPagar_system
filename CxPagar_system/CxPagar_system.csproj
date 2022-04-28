@@ -78,11 +78,65 @@
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Forms\Cons\Cons_Cierres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Cierres.Designer.cs">
+      <DependentUpon>Cons_Cierres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Conceptos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Conceptos.Designer.cs">
+      <DependentUpon>Cons_Conceptos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Docs_x_Pagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Docs_x_Pagar.Designer.cs">
+      <DependentUpon>Cons_Docs_x_Pagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Facturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Facturas.Designer.cs">
+      <DependentUpon>Cons_Facturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Parametros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Parametros.Designer.cs">
+      <DependentUpon>Cons_Parametros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Pendientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Pendientes.Designer.cs">
+      <DependentUpon>Cons_Pendientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Proveedores.Designer.cs">
+      <DependentUpon>Cons_Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Cons\Cons_Usuarios.Designer.cs">
+      <DependentUpon>Cons_Usuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Forms\Mant\Docs_x_pagar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\Forms\Mant\Docs_x_pagar.Designer.cs">
       <DependentUpon>Docs_x_pagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Mant\Mant_Concepto_Pago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Mant\Mant_Concepto_Pago.Designer.cs">
+      <DependentUpon>Mant_Concepto_Pago.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Forms\Mant\Mant_Gestion_Pago.cs">
       <SubType>Form</SubType>
@@ -108,6 +162,12 @@
     <Compile Include="Views\Forms\Process\Proc_Cierre.Designer.cs">
       <DependentUpon>Proc_Cierre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Forms\Process\Proc_Parametros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Process\Proc_Parametros.Designer.cs">
+      <DependentUpon>Proc_Parametros.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,8 +189,35 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\Forms\Cons\Cons_Cierres.resx">
+      <DependentUpon>Cons_Cierres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Cons\Cons_Conceptos.resx">
+      <DependentUpon>Cons_Conceptos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Cons\Cons_Docs_x_Pagar.resx">
+      <DependentUpon>Cons_Docs_x_Pagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Cons\Cons_Facturas.resx">
+      <DependentUpon>Cons_Facturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Cons\Cons_Parametros.resx">
+      <DependentUpon>Cons_Parametros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Cons\Cons_Pendientes.resx">
+      <DependentUpon>Cons_Pendientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Cons\Cons_Proveedores.resx">
+      <DependentUpon>Cons_Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Cons\Cons_Usuarios.resx">
+      <DependentUpon>Cons_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Forms\Mant\Docs_x_pagar.resx">
       <DependentUpon>Docs_x_pagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Mant\Mant_Concepto_Pago.resx">
+      <DependentUpon>Mant_Concepto_Pago.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Forms\Mant\Mant_Gestion_Pago.resx">
       <DependentUpon>Mant_Gestion_Pago.cs</DependentUpon>
@@ -143,6 +230,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Forms\Process\Proc_Cierre.resx">
       <DependentUpon>Proc_Cierre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Process\Proc_Parametros.resx">
+      <DependentUpon>Proc_Parametros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
@@ -179,8 +269,6 @@
   <ItemGroup>
     <Content Include="hnet.com-image.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\Forms\Cons\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
