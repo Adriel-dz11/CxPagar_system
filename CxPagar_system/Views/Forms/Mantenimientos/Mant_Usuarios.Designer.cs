@@ -46,8 +46,6 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.Mas10Reg = new FontAwesome.Sharp.IconButton();
-            this.Menos10Reg = new FontAwesome.Sharp.IconButton();
             this.BtnCancelar = new FontAwesome.Sharp.IconButton();
             this.BtnGuardar = new FontAwesome.Sharp.IconButton();
             this.BtnUltimoReg = new FontAwesome.Sharp.IconButton();
@@ -81,7 +79,7 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1119, 376);
+            this.panel1.Size = new System.Drawing.Size(722, 376);
             this.panel1.TabIndex = 0;
             // 
             // groupBox1
@@ -90,7 +88,7 @@
             this.groupBox1.Controls.Add(this.textBox9);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Black", 12F);
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(454, 12);
+            this.groupBox1.Location = new System.Drawing.Point(258, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(451, 66);
             this.groupBox1.TabIndex = 19;
@@ -149,7 +147,7 @@
             this.BtnEliminar.IconColor = System.Drawing.Color.LightCoral;
             this.BtnEliminar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnEliminar.IconSize = 35;
-            this.BtnEliminar.Location = new System.Drawing.Point(258, 12);
+            this.BtnEliminar.Location = new System.Drawing.Point(166, 12);
             this.BtnEliminar.Name = "BtnEliminar";
             this.BtnEliminar.Size = new System.Drawing.Size(71, 66);
             this.BtnEliminar.TabIndex = 8;
@@ -252,7 +250,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 10);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1095, 278);
+            this.dataGridView1.Size = new System.Drawing.Size(697, 278);
             this.dataGridView1.TabIndex = 1;
             // 
             // panel2
@@ -263,14 +261,12 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 376);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1119, 362);
+            this.panel2.Size = new System.Drawing.Size(722, 362);
             this.panel2.TabIndex = 1;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(176)))), ((int)(((byte)(240)))));
-            this.panel3.Controls.Add(this.Mas10Reg);
-            this.panel3.Controls.Add(this.Menos10Reg);
             this.panel3.Controls.Add(this.BtnCancelar);
             this.panel3.Controls.Add(this.BtnGuardar);
             this.panel3.Controls.Add(this.BtnUltimoReg);
@@ -280,40 +276,8 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 308);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1119, 54);
+            this.panel3.Size = new System.Drawing.Size(722, 54);
             this.panel3.TabIndex = 2;
-            // 
-            // Mas10Reg
-            // 
-            this.Mas10Reg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
-            this.Mas10Reg.Font = new System.Drawing.Font("Segoe UI Black", 8.25F);
-            this.Mas10Reg.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Mas10Reg.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.Mas10Reg.IconColor = System.Drawing.Color.White;
-            this.Mas10Reg.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.Mas10Reg.IconSize = 25;
-            this.Mas10Reg.Location = new System.Drawing.Point(323, 3);
-            this.Mas10Reg.Name = "Mas10Reg";
-            this.Mas10Reg.Size = new System.Drawing.Size(55, 45);
-            this.Mas10Reg.TabIndex = 13;
-            this.Mas10Reg.Text = "+10";
-            this.Mas10Reg.UseVisualStyleBackColor = false;
-            // 
-            // Menos10Reg
-            // 
-            this.Menos10Reg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
-            this.Menos10Reg.Font = new System.Drawing.Font("Segoe UI Black", 8.25F);
-            this.Menos10Reg.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Menos10Reg.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.Menos10Reg.IconColor = System.Drawing.Color.White;
-            this.Menos10Reg.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.Menos10Reg.IconSize = 25;
-            this.Menos10Reg.Location = new System.Drawing.Point(137, 3);
-            this.Menos10Reg.Name = "Menos10Reg";
-            this.Menos10Reg.Size = new System.Drawing.Size(55, 45);
-            this.Menos10Reg.TabIndex = 12;
-            this.Menos10Reg.Text = "-10";
-            this.Menos10Reg.UseVisualStyleBackColor = false;
             // 
             // BtnCancelar
             // 
@@ -324,7 +288,7 @@
             this.BtnCancelar.IconColor = System.Drawing.Color.Brown;
             this.BtnCancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnCancelar.IconSize = 35;
-            this.BtnCancelar.Location = new System.Drawing.Point(991, 3);
+            this.BtnCancelar.Location = new System.Drawing.Point(593, 3);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(116, 48);
             this.BtnCancelar.TabIndex = 11;
@@ -342,7 +306,7 @@
             this.BtnGuardar.IconColor = System.Drawing.Color.MediumSlateBlue;
             this.BtnGuardar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnGuardar.IconSize = 35;
-            this.BtnGuardar.Location = new System.Drawing.Point(869, 3);
+            this.BtnGuardar.Location = new System.Drawing.Point(471, 3);
             this.BtnGuardar.Name = "BtnGuardar";
             this.BtnGuardar.Size = new System.Drawing.Size(116, 48);
             this.BtnGuardar.TabIndex = 10;
@@ -359,7 +323,7 @@
             this.BtnUltimoReg.IconColor = System.Drawing.Color.White;
             this.BtnUltimoReg.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnUltimoReg.IconSize = 25;
-            this.BtnUltimoReg.Location = new System.Drawing.Point(454, 3);
+            this.BtnUltimoReg.Location = new System.Drawing.Point(216, 3);
             this.BtnUltimoReg.Name = "BtnUltimoReg";
             this.BtnUltimoReg.Size = new System.Drawing.Size(55, 45);
             this.BtnUltimoReg.TabIndex = 9;
@@ -375,7 +339,7 @@
             this.BtnSiguiente.IconColor = System.Drawing.Color.White;
             this.BtnSiguiente.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnSiguiente.IconSize = 25;
-            this.BtnSiguiente.Location = new System.Drawing.Point(262, 3);
+            this.BtnSiguiente.Location = new System.Drawing.Point(145, 3);
             this.BtnSiguiente.Name = "BtnSiguiente";
             this.BtnSiguiente.Size = new System.Drawing.Size(55, 45);
             this.BtnSiguiente.TabIndex = 8;
@@ -391,7 +355,7 @@
             this.BtnAnterior.IconColor = System.Drawing.Color.White;
             this.BtnAnterior.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnAnterior.IconSize = 25;
-            this.BtnAnterior.Location = new System.Drawing.Point(201, 3);
+            this.BtnAnterior.Location = new System.Drawing.Point(84, 3);
             this.BtnAnterior.Name = "BtnAnterior";
             this.BtnAnterior.Size = new System.Drawing.Size(55, 45);
             this.BtnAnterior.TabIndex = 7;
@@ -418,7 +382,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1119, 738);
+            this.ClientSize = new System.Drawing.Size(722, 738);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Mant_Usuarios";
@@ -452,8 +416,6 @@
         private FontAwesome.Sharp.IconButton BtnEditar;
         private FontAwesome.Sharp.IconButton BtnEliminar;
         private FontAwesome.Sharp.IconButton BtnAgregar;
-        private FontAwesome.Sharp.IconButton Mas10Reg;
-        private FontAwesome.Sharp.IconButton Menos10Reg;
         private FontAwesome.Sharp.IconButton BtnCancelar;
         private FontAwesome.Sharp.IconButton BtnGuardar;
         private FontAwesome.Sharp.IconButton BtnUltimoReg;

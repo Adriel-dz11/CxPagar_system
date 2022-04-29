@@ -18,7 +18,8 @@ namespace CxPagar_system.Data
         public SqlConnection Connect()
         {
             EnvVariable = Environment.GetEnvironmentVariable("SQLSERVER_CONNECTIONSTRING");
-            _connection = new SqlConnection(EnvVariable); 
+            _connection = new SqlConnection(EnvVariable);
+            _connection.Open();
             return _connection;
         }
 
