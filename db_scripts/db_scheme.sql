@@ -1,3 +1,7 @@
+USE master
+GO
+DROP DATABASE cuentasxpagar
+GO
 CREATE DATABASE cuentasxpagar
 GO
     USE cuentasxpagar
@@ -46,8 +50,8 @@ GO
 GO
     CREATE TABLE Parametros (
         id_parametro INT NOT NULL PRIMARY KEY IDENTITY(1, 1),
-        mes_de_proceso DATE,
-        ano_de_proceso DATE,
+        mes_de_proceso CHAR(20),
+        anio_de_proceso CHAR(10),
         cierre_ejecutado VARCHAR(50)
     )
 GO
@@ -56,9 +60,63 @@ GO
         id_parametros INT NOT NULL FOREIGN KEY REFERENCES Parametros(id_parametro),
         monto FLOAT
     ) 
-    
--- Inserting admin user
+GO
+	CREATE TABLE Meses (
+		id INT NOT NULL PRIMARY KEY IDENTITY(1, 1),
+		nombre VARCHAR(20)
+	)
+GO
+	CREATE TABLE Anios (
+		id INT NOT NULL PRIMARY KEY IDENTITY(1, 1),
+		nombre VARCHAR(20)
+	)
+GO
+	CREATE TABLE CierreEjecutado (
+		id INT NOT NULL PRIMARY KEY IDENTITY(1, 1),
+		opcion VARCHAR(20)
+	)
+
+-- Default data
 INSERT INTO
     Login(username, password, privilegio)
 VALUES
-    ('Admin', 'admin1234', 'admin')
+    ('admin', 'admin1234', 'admin')
+GO
+INSERT INTO
+	Meses(nombre)
+VALUES
+	(''),
+	('Enero'),
+	('Febrero'),
+	('Marzo'),
+	('Abril'),
+	('Mayo'),
+	('Junio'),
+	('Julio'),
+	('Agosto'),
+	('Septiembre'),
+	('Octubre'),
+	('Noviembre'),
+	('Diciembre')
+GO
+INSERT INTO
+	Anios(nombre)
+VALUES
+	(''),
+	('2022'),
+	('2023'),
+	('2024'),
+	('2025'),
+	('2026'),
+	('2027'),
+	('2028'),
+	('2029'),
+	('2030'),
+	('2031')
+GO
+INSERT INTO
+	CierreEjecutado(opcion)
+VALUES
+	(''),
+	('Ejecutado'),
+	('No Ejecutado')

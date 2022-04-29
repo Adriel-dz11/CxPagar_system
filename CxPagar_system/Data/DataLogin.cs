@@ -22,12 +22,12 @@ namespace CxPagar_system.Data
             this.controller = controller;
         }
 
-        public void ValidateLoginData(LoginModel objLogin, Login loginForm)
+        public void ValidateLoginData(LoginModel model, Login loginForm)
         {
             try
             {
                 string query = "SELECT username, password FROM Login " +
-                               "WHERE username = '" + objLogin.Username + "' AND " + "password = '" + objLogin.Password + "'";
+                               "WHERE username = '" + model.Username + "' AND " + "password = '" + model.Password + "'";
 
                 SqlDataAdapter adapter = new SqlDataAdapter(query, driver.Connect());
                 DataTable dtable = new DataTable();

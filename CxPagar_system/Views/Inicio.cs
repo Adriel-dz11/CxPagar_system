@@ -137,5 +137,15 @@ namespace CxPagar_system.Views
         {
             new Mant_Usuarios().ShowDialog();
         }
+
+        private void iconDropDownButton7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login loginForm = Login.GetInstance();
+            loginForm.GetUsernameField().Text = "";
+            loginForm.GetPasswordField().Text = "";
+            loginForm.GetUsernameField().Focus();
+            loginForm.Show();
+        }
     }
 }

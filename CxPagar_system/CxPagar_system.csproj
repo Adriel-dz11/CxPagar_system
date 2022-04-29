@@ -209,103 +209,102 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\LoginController.cs" />
-    <Compile Include="Data\ConceptoPagoCAD.cs" />
+    <Compile Include="Controllers\ProcesoParametrosController.cs" />
     <Compile Include="Data\DataLogin.cs" />
-    <Compile Include="Data\DocxPagarCAD.cs" />
+    <Compile Include="Data\DataProcesoParametros.cs" />
     <Compile Include="Data\DriverDb.cs" />
-    <Compile Include="Models\ConceptoPago.cs" />
-    <Compile Include="Models\DocxPagar.cs" />
     <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\ProcesoParametrosModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\Forms\Cons\Cons_Cierres.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Cierres.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Cierres.Designer.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Cierres.Designer.cs">
       <DependentUpon>Cons_Cierres.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Conceptos.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Conceptos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Conceptos.Designer.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Conceptos.Designer.cs">
       <DependentUpon>Cons_Conceptos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Docs_x_Pagar.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Docs_x_Pagar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Docs_x_Pagar.Designer.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Docs_x_Pagar.Designer.cs">
       <DependentUpon>Cons_Docs_x_Pagar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Facturas.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Facturas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Facturas.Designer.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Facturas.Designer.cs">
       <DependentUpon>Cons_Facturas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Parametros.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Parametros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Parametros.Designer.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Parametros.Designer.cs">
       <DependentUpon>Cons_Parametros.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Pendientes.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Pendientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Pendientes.Designer.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Pendientes.Designer.cs">
       <DependentUpon>Cons_Pendientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Proveedores.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Proveedores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Proveedores.Designer.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Proveedores.Designer.cs">
       <DependentUpon>Cons_Proveedores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Usuarios.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Cons\Cons_Usuarios.Designer.cs">
+    <Compile Include="Views\Forms\Consultas\Cons_Usuarios.Designer.cs">
       <DependentUpon>Cons_Usuarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Mant\Docs_x_pagar.cs">
+    <Compile Include="Views\Forms\Mantenimientos\Docs_x_pagar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Mant\Docs_x_pagar.Designer.cs">
+    <Compile Include="Views\Forms\Mantenimientos\Docs_x_pagar.Designer.cs">
       <DependentUpon>Docs_x_pagar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Mant\Mant_Concepto_Pago.cs">
+    <Compile Include="Views\Forms\Mantenimientos\Mant_Concepto_Pago.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Mant\Mant_Concepto_Pago.Designer.cs">
+    <Compile Include="Views\Forms\Mantenimientos\Mant_Concepto_Pago.Designer.cs">
       <DependentUpon>Mant_Concepto_Pago.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Mant\Mant_Gestion_Pago.cs">
+    <Compile Include="Views\Forms\Mantenimientos\Mant_Gestion_Pago.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Mant\Mant_Gestion_Pago.Designer.cs">
+    <Compile Include="Views\Forms\Mantenimientos\Mant_Gestion_Pago.Designer.cs">
       <DependentUpon>Mant_Gestion_Pago.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Mant\Mant_Proveedores.cs">
+    <Compile Include="Views\Forms\Mantenimientos\Mant_Proveedores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Mant\Mant_Proveedores.Designer.cs">
+    <Compile Include="Views\Forms\Mantenimientos\Mant_Proveedores.Designer.cs">
       <DependentUpon>Mant_Proveedores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Mant\Mant_Usuarios.cs">
+    <Compile Include="Views\Forms\Mantenimientos\Mant_Usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Mant\Mant_Usuarios.Designer.cs">
+    <Compile Include="Views\Forms\Mantenimientos\Mant_Usuarios.Designer.cs">
       <DependentUpon>Mant_Usuarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Process\Proc_Cierre.cs">
+    <Compile Include="Views\Forms\Procesos\Proc_Cierre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Process\Proc_Cierre.Designer.cs">
+    <Compile Include="Views\Forms\Procesos\Proc_Cierre.Designer.cs">
       <DependentUpon>Proc_Cierre.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Process\Proc_Parametros.cs">
+    <Compile Include="Views\Forms\Procesos\Proc_Parametros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Process\Proc_Parametros.Designer.cs">
+    <Compile Include="Views\Forms\Procesos\Proc_Parametros.Designer.cs">
       <DependentUpon>Proc_Parametros.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Inicio.cs">
@@ -329,49 +328,49 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Views\Forms\Cons\Cons_Cierres.resx">
+    <EmbeddedResource Include="Views\Forms\Consultas\Cons_Cierres.resx">
       <DependentUpon>Cons_Cierres.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Cons\Cons_Conceptos.resx">
+    <EmbeddedResource Include="Views\Forms\Consultas\Cons_Conceptos.resx">
       <DependentUpon>Cons_Conceptos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Cons\Cons_Docs_x_Pagar.resx">
+    <EmbeddedResource Include="Views\Forms\Consultas\Cons_Docs_x_Pagar.resx">
       <DependentUpon>Cons_Docs_x_Pagar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Cons\Cons_Facturas.resx">
+    <EmbeddedResource Include="Views\Forms\Consultas\Cons_Facturas.resx">
       <DependentUpon>Cons_Facturas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Cons\Cons_Parametros.resx">
+    <EmbeddedResource Include="Views\Forms\Consultas\Cons_Parametros.resx">
       <DependentUpon>Cons_Parametros.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Cons\Cons_Pendientes.resx">
+    <EmbeddedResource Include="Views\Forms\Consultas\Cons_Pendientes.resx">
       <DependentUpon>Cons_Pendientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Cons\Cons_Proveedores.resx">
+    <EmbeddedResource Include="Views\Forms\Consultas\Cons_Proveedores.resx">
       <DependentUpon>Cons_Proveedores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Cons\Cons_Usuarios.resx">
+    <EmbeddedResource Include="Views\Forms\Consultas\Cons_Usuarios.resx">
       <DependentUpon>Cons_Usuarios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Mant\Docs_x_pagar.resx">
+    <EmbeddedResource Include="Views\Forms\Mantenimientos\Docs_x_pagar.resx">
       <DependentUpon>Docs_x_pagar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Mant\Mant_Concepto_Pago.resx">
+    <EmbeddedResource Include="Views\Forms\Mantenimientos\Mant_Concepto_Pago.resx">
       <DependentUpon>Mant_Concepto_Pago.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Mant\Mant_Gestion_Pago.resx">
+    <EmbeddedResource Include="Views\Forms\Mantenimientos\Mant_Gestion_Pago.resx">
       <DependentUpon>Mant_Gestion_Pago.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Mant\Mant_Proveedores.resx">
+    <EmbeddedResource Include="Views\Forms\Mantenimientos\Mant_Proveedores.resx">
       <DependentUpon>Mant_Proveedores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Mant\Mant_Usuarios.resx">
+    <EmbeddedResource Include="Views\Forms\Mantenimientos\Mant_Usuarios.resx">
       <DependentUpon>Mant_Usuarios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Process\Proc_Cierre.resx">
+    <EmbeddedResource Include="Views\Forms\Procesos\Proc_Cierre.resx">
       <DependentUpon>Proc_Cierre.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Process\Proc_Parametros.resx">
+    <EmbeddedResource Include="Views\Forms\Procesos\Proc_Parametros.resx">
       <DependentUpon>Proc_Parametros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Inicio.resx">
