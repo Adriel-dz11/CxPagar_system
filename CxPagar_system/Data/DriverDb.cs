@@ -13,12 +13,14 @@ namespace CxPagar_system.Data
         private SqlConnection _connection;
         private string EnvVariable;
 
-        private DriverDb() { }
+        private DriverDb() 
+        { 
+            EnvVariable = Environment.GetEnvironmentVariable("SQLSERVER_CONNECTIONSTRING");
+            _connection = new SqlConnection(EnvVariable);
+        }
 
         public SqlConnection Connect()
         {
-            EnvVariable = Environment.GetEnvironmentVariable("SQLSERVER_CONNECTIONSTRING");
-            _connection = new SqlConnection(EnvVariable);
             _connection.Open();
             return _connection;
         }

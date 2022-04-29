@@ -28,11 +28,9 @@ namespace CxPagar_system.Data
 
         public void Insertar(ProcesoParametrosModel model)
         {
-            var con = driver.Connect();
             try
             {
-                con.Open();
-                command.Connection = con;
+                command.Connection = driver.Connect();
                 command.CommandText = "INSERT INTO Parametros(mes_de_proceso, anio_de_proceso, cierre_ejecutado) " +
                                       "VALUES('" + model.MesDeProceso + "', '" + model.AnioDeProceso + "', '" + model.CierreEjecutado + "')";
 
@@ -45,71 +43,57 @@ namespace CxPagar_system.Data
             }
             finally
             {
-                con.Close();
+                driver.Disconnect();
             }
         }
 
         public DataTable ListarProcesoParametros()
         {
             DataTable table = new DataTable();
-            var con = driver.Connect();
-            con.Open();
-            command.Connection = con;
+            command.Connection = driver.Connect();
             command.CommandText = "SELECT * FROM Parametros";
             reader = command.ExecuteReader();
             table.Load(reader);
-            con.Close();
+            driver.Disconnect();
             return table;
         }
 
         public DataTable ListarMeses()
         {
             DataTable table = new DataTable();
-
-            var con = driver.Connect();
-            con.Open();
-            command.Connection = con;
+            command.Connection = driver.Connect();
             command.CommandText = "SELECT id, nombre " +
                                   "FROM Meses";
             reader = command.ExecuteReader();
             table.Load(reader);
             reader.Close();
             driver.Disconnect();
-            con.Close();
             return table;
         }
 
         public DataTable ListarAnios()
         {
             DataTable table = new DataTable();
-
-            var con = driver.Connect();
-            con.Open();
-            command.Connection = con;
+            command.Connection = driver.Connect();
             command.CommandText = "SELECT id, nombre " +
                                   "FROM Anios";
             reader = command.ExecuteReader();
             table.Load(reader);
             reader.Close();
             driver.Disconnect();
-            con.Close();
             return table;
         }
 
         public DataTable ListarOpcionesDeCierre()
         {
             DataTable table = new DataTable();
-
-            var con = driver.Connect();
-            con.Open();
-            command.Connection = con;
+            command.Connection = driver.Connect();
             command.CommandText = "SELECT id, opcion " +
                                   "FROM CierreEjecutado";
             reader = command.ExecuteReader();
             table.Load(reader);
             reader.Close();
             driver.Disconnect();
-            con.Close();
             return table;
         }
     }
