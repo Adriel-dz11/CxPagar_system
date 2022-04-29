@@ -116,6 +116,7 @@
             this.iconDropDownButton7.Size = new System.Drawing.Size(102, 50);
             this.iconDropDownButton7.Text = "Salir";
             this.iconDropDownButton7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.iconDropDownButton7.Click += new System.EventHandler(this.iconDropDownButton7_Click);
             // 
             // toolStrip2
             // 

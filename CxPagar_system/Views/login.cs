@@ -15,6 +15,7 @@ namespace CxPagar_system.Views
     public partial class Login : Form
     {
         LoginController loginController = new LoginController();
+        private static Login itself;
 
         public Login()
         {
@@ -23,6 +24,12 @@ namespace CxPagar_system.Views
             txtContrasena.PasswordChar = '*';
             txtContrasena.MaxLength = 950;
             this.AcceptButton = BtnIngresar;
+            itself = this;
+        }
+
+        public static Login GetInstance()
+        {
+            return itself;
         }
 
         private void BtnIngresar_Click(object sender, KeyEventArgs e)
@@ -80,6 +87,5 @@ namespace CxPagar_system.Views
                 this.Show();
             }
         }
-
     }
 }
