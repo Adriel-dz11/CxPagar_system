@@ -41,6 +41,11 @@ namespace CxPagar_system.Controllers
             }
         }
 
+        public DataTable ListarProcesoParametros()
+        {
+            return data.ListarProcesoParametros();
+        }
+
         public DataTable ListarMeses()
         {
             return data.ListarMeses();

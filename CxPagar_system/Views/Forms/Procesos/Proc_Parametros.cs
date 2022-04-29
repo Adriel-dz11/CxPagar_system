@@ -20,9 +20,13 @@ namespace CxPagar_system.Views.Forms.Process
             InitializeComponent();
             controller = new ProcesoParametrosController();
             ListarDatosAIntroducir();
-            cmbMes.Enabled = false;
-            cmbAnio.Enabled = false;
-            cmbCierre.Enabled = false;
+            DeshabilitarCamposALlenar();
+            dataGridProcesoParametros.DataSource = controller.ListarProcesoParametros();
+            var dataGridWidth = dataGridProcesoParametros.Width;
+            dataGridProcesoParametros.Columns[0].Width = dataGridWidth / 4;
+            dataGridProcesoParametros.Columns[1].Width = dataGridWidth / 4;
+            dataGridProcesoParametros.Columns[2].Width = dataGridWidth / 4;
+            dataGridProcesoParametros.Columns[3].Width = dataGridWidth / 4;
         }
 
         private void ListarDatosAIntroducir()
@@ -48,6 +52,13 @@ namespace CxPagar_system.Views.Forms.Process
             cmbCierre.Enabled = true;
         }
 
+        private void DeshabilitarCamposALlenar()
+        {
+            cmbMes.Enabled = false;
+            cmbAnio.Enabled = false;
+            cmbCierre.Enabled = false;
+        }
+
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
             HabilitarCamposALlenar();
@@ -64,9 +75,13 @@ namespace CxPagar_system.Views.Forms.Process
                 string CierreEjecutado = cmbCierre.Text;
                 controller.InsertarProcesoParametro(Mes, Anio, CierreEjecutado);
                 ListarDatosAIntroducir();
+                DeshabilitarCamposALlenar();
+                dataGridProcesoParametros.DataSource = controller.ListarProcesoParametros();
             } else
             {
                 ListarDatosAIntroducir();
+                DeshabilitarCamposALlenar();
+                dataGridProcesoParametros.DataSource = controller.ListarProcesoParametros();
             }
         }
     }

@@ -49,6 +49,19 @@ namespace CxPagar_system.Data
             }
         }
 
+        public DataTable ListarProcesoParametros()
+        {
+            DataTable table = new DataTable();
+            var con = driver.Connect();
+            con.Open();
+            command.Connection = con;
+            command.CommandText = "SELECT * FROM Parametros";
+            reader = command.ExecuteReader();
+            table.Load(reader);
+            con.Close();
+            return table;
+        }
+
         public DataTable ListarMeses()
         {
             DataTable table = new DataTable();
