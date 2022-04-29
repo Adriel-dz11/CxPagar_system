@@ -209,8 +209,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Data\ConceptoPagoCAD.cs" />
     <Compile Include="Data\DataLogin.cs" />
+    <Compile Include="Data\DocxPagarCAD.cs" />
     <Compile Include="Data\DriverDb.cs" />
+    <Compile Include="Models\ConceptoPago.cs" />
+    <Compile Include="Models\DocxPagar.cs" />
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
