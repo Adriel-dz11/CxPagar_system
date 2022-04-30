@@ -31,26 +31,14 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.BnBuscar = new FontAwesome.Sharp.IconButton();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtbuscar = new System.Windows.Forms.TextBox();
             this.BtnEditar = new FontAwesome.Sharp.IconButton();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.BtnEliminar = new FontAwesome.Sharp.IconButton();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
             this.BtnAgregar = new FontAwesome.Sharp.IconButton();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.txtbalanceinicial = new System.Windows.Forms.TextBox();
+            this.txtfecha = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -62,6 +50,12 @@
             this.BtnSiguiente = new FontAwesome.Sharp.IconButton();
             this.BtnAnterior = new FontAwesome.Sharp.IconButton();
             this.BtnPrimerReg = new FontAwesome.Sharp.IconButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtbalanceactual = new System.Windows.Forms.TextBox();
+            this.txtproveedor = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtmonto = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -72,26 +66,20 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
+            this.panel1.Controls.Add(this.txtmonto);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.txtproveedor);
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.BtnEditar);
-            this.panel1.Controls.Add(this.textBox5);
             this.panel1.Controls.Add(this.BtnEliminar);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox7);
             this.panel1.Controls.Add(this.BtnAgregar);
-            this.panel1.Controls.Add(this.textBox8);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.txtbalanceactual);
+            this.panel1.Controls.Add(this.txtbalanceinicial);
+            this.panel1.Controls.Add(this.txtfecha);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F);
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlLight;
@@ -103,7 +91,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.BnBuscar);
-            this.groupBox1.Controls.Add(this.textBox9);
+            this.groupBox1.Controls.Add(this.txtbuscar);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Black", 12F);
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(557, 29);
@@ -129,13 +117,14 @@
             this.BnBuscar.TabIndex = 17;
             this.BnBuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BnBuscar.UseVisualStyleBackColor = false;
+            this.BnBuscar.Click += new System.EventHandler(this.BnBuscar_Click);
             // 
-            // textBox9
+            // txtbuscar
             // 
-            this.textBox9.Location = new System.Drawing.Point(19, 24);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(334, 29);
-            this.textBox9.TabIndex = 18;
+            this.txtbuscar.Location = new System.Drawing.Point(19, 24);
+            this.txtbuscar.Name = "txtbuscar";
+            this.txtbuscar.Size = new System.Drawing.Size(334, 29);
+            this.txtbuscar.TabIndex = 18;
             // 
             // BtnEditar
             // 
@@ -155,6 +144,7 @@
             this.BtnEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BtnEditar.UseVisualStyleBackColor = false;
             // 
+<<<<<<< Updated upstream:CxPagar_system/Views/Forms/Procesos/Proc_Cierre.Designer.cs
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(739, 306);
@@ -162,6 +152,8 @@
             this.textBox5.Size = new System.Drawing.Size(269, 22);
             this.textBox5.TabIndex = 16;
             // 
+=======
+>>>>>>> Stashed changes:CxPagar_system/Views/Forms/Process/Proc_Cierre.Designer.cs
             // BtnEliminar
             // 
             this.BtnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
@@ -180,6 +172,7 @@
             this.BtnEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BtnEliminar.UseVisualStyleBackColor = false;
             // 
+<<<<<<< Updated upstream:CxPagar_system/Views/Forms/Procesos/Proc_Cierre.Designer.cs
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(739, 257);
@@ -194,6 +187,8 @@
             this.textBox7.Size = new System.Drawing.Size(269, 22);
             this.textBox7.TabIndex = 14;
             // 
+=======
+>>>>>>> Stashed changes:CxPagar_system/Views/Forms/Process/Proc_Cierre.Designer.cs
             // BtnAgregar
             // 
             this.BtnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(57)))));
@@ -212,6 +207,7 @@
             this.BtnAgregar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BtnAgregar.UseVisualStyleBackColor = false;
             // 
+<<<<<<< Updated upstream:CxPagar_system/Views/Forms/Procesos/Proc_Cierre.Designer.cs
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(739, 159);
@@ -232,9 +228,16 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(269, 22);
             this.textBox3.TabIndex = 11;
+=======
+            // txtbalanceinicial
+>>>>>>> Stashed changes:CxPagar_system/Views/Forms/Process/Proc_Cierre.Designer.cs
             // 
-            // textBox2
+            this.txtbalanceinicial.Location = new System.Drawing.Point(151, 202);
+            this.txtbalanceinicial.Name = "txtbalanceinicial";
+            this.txtbalanceinicial.Size = new System.Drawing.Size(269, 22);
+            this.txtbalanceinicial.TabIndex = 11;
             // 
+<<<<<<< Updated upstream:CxPagar_system/Views/Forms/Procesos/Proc_Cierre.Designer.cs
             this.textBox2.Location = new System.Drawing.Point(193, 213);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(269, 22);
@@ -301,27 +304,44 @@
             this.label4.Size = new System.Drawing.Size(39, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "label4";
+=======
+            // txtfecha
+            // 
+            this.txtfecha.Location = new System.Drawing.Point(151, 152);
+            this.txtfecha.Name = "txtfecha";
+            this.txtfecha.Size = new System.Drawing.Size(269, 22);
+            this.txtfecha.TabIndex = 10;
+>>>>>>> Stashed changes:CxPagar_system/Views/Forms/Process/Proc_Cierre.Designer.cs
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Black", 8.25F);
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLight;
+<<<<<<< Updated upstream:CxPagar_system/Views/Forms/Procesos/Proc_Cierre.Designer.cs
             this.label3.Location = new System.Drawing.Point(72, 260);
+=======
+            this.label3.Location = new System.Drawing.Point(26, 202);
+>>>>>>> Stashed changes:CxPagar_system/Views/Forms/Process/Proc_Cierre.Designer.cs
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 13);
+            this.label3.Size = new System.Drawing.Size(85, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.label3.Text = "Balance inicial:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Black", 8.25F);
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLight;
+<<<<<<< Updated upstream:CxPagar_system/Views/Forms/Procesos/Proc_Cierre.Designer.cs
             this.label2.Location = new System.Drawing.Point(72, 213);
+=======
+            this.label2.Location = new System.Drawing.Point(26, 155);
+>>>>>>> Stashed changes:CxPagar_system/Views/Forms/Process/Proc_Cierre.Designer.cs
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 13);
+            this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 1;
+<<<<<<< Updated upstream:CxPagar_system/Views/Forms/Procesos/Proc_Cierre.Designer.cs
             this.label2.Text = "label2";
             // 
             // label1
@@ -334,6 +354,9 @@
             this.label1.Size = new System.Drawing.Size(37, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
+=======
+            this.label2.Text = "Fecha:";
+>>>>>>> Stashed changes:CxPagar_system/Views/Forms/Process/Proc_Cierre.Designer.cs
             // 
             // dataGridView1
             // 
@@ -502,6 +525,60 @@
             this.BtnPrimerReg.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BtnPrimerReg.UseVisualStyleBackColor = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Black", 8.25F);
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label4.Location = new System.Drawing.Point(26, 296);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(87, 13);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Balance actual:";
+            // 
+            // txtbalanceactual
+            // 
+            this.txtbalanceactual.Location = new System.Drawing.Point(151, 293);
+            this.txtbalanceactual.Name = "txtbalanceactual";
+            this.txtbalanceactual.Size = new System.Drawing.Size(269, 22);
+            this.txtbalanceactual.TabIndex = 12;
+            // 
+            // txtproveedor
+            // 
+            this.txtproveedor.Location = new System.Drawing.Point(151, 112);
+            this.txtproveedor.Name = "txtproveedor";
+            this.txtproveedor.Size = new System.Drawing.Size(269, 22);
+            this.txtproveedor.TabIndex = 21;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Black", 8.25F);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label1.Location = new System.Drawing.Point(26, 115);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 13);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Id Proveedor:";
+            // 
+            // txtmonto
+            // 
+            this.txtmonto.Location = new System.Drawing.Point(151, 243);
+            this.txtmonto.Name = "txtmonto";
+            this.txtmonto.Size = new System.Drawing.Size(269, 22);
+            this.txtmonto.TabIndex = 23;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Black", 8.25F);
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label5.Location = new System.Drawing.Point(26, 252);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(91, 13);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "Monto pagado:";
+            // 
             // Proc_Cierre
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -528,23 +605,11 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtbalanceinicial;
+        private System.Windows.Forms.TextBox txtfecha;
         private FontAwesome.Sharp.IconButton BtnEditar;
         private FontAwesome.Sharp.IconButton BtnEliminar;
         private FontAwesome.Sharp.IconButton BtnAgregar;
@@ -558,6 +623,12 @@
         private FontAwesome.Sharp.IconButton BtnPrimerReg;
         private System.Windows.Forms.GroupBox groupBox1;
         private FontAwesome.Sharp.IconButton BnBuscar;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtbuscar;
+        private System.Windows.Forms.TextBox txtbalanceactual;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtproveedor;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtmonto;
+        private System.Windows.Forms.Label label5;
     }
 }

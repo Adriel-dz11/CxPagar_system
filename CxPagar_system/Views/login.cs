@@ -87,5 +87,13 @@ namespace CxPagar_system.Views
                 this.Show();
             }
         }
+<<<<<<< Updated upstream
+=======
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> Stashed changes
     }
 }
