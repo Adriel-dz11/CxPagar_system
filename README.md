@@ -31,3 +31,8 @@ _- Password: admin1234_
 *  **Saily Cabrera** - [sailymc](https://gist.github.com/sailymc)
 
 ## Imágenes
+![image](https://user-images.githubusercontent.com/87541356/166089558-8454570d-74bc-4769-bef3-1e30c692ebdd.png)
+![image](https://user-images.githubusercontent.com/87541356/166089569-ddfa0df6-6979-4681-9f28-a50158957d87.png)
+![image](https://user-images.githubusercontent.com/87541356/166089639-6dade8ca-a5b4-4ba6-ab08-fd54503ef5fd.png)
+
+
